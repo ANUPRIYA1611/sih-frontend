@@ -1,0 +1,124 @@
+.homecards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 40px;
+    margin-left:170px;
+  }
+  .surimg{
+	width:100%;
+	height:50%;
+}
+.homep1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold; 
+    text-align: center;
+    font-size: 26px;
+}
+.spcard{
+    height:350px;
+    width:300px; 
+    background-color: whitesmoke;
+}
+.main-navi{
+	position: relative;
+	top: 0;
+	width: 100%;
+	padding-top: 10em;
+	overflow: hidden;
+	border: 0px;
+	padding: 5px 5px;
+	margin-top:-10px;
+	margin-left: -10px;
+	margin-right: -5px;
+}
+.main-navi a{
+    overflow: hidden;
+	float: right;
+	display: block;
+	text-align: center;
+	padding: 13px 14px;
+	text-decoration: none;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+	color: #0a0b0b;
+	cursor:pointer;
+	font-size: 26px;
+} 
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: none;
+}
+.simg{
+    height:100%;
+    width:50%;
+}
+.sip{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.dumcontent{
+    height:200px;
+    width:700px;
+    margin-left: 300px;
+}
+.dummyimg1{
+    width:100%;
+    height:100%;
+   
+}
+input#search-bar{
+  margin: 0 auto;
+  width: 50%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline: none;
+  &:focus{
+    border: 1px solid #008ABF;
+    transition: 0.35s ease;
+    color: #008ABF;
+    &::-webkit-input-placeholder{
+      transition: opacity 0.45s ease; 
+      opacity: 0;
+     }
+    &::-moz-placeholder {
+      transition: opacity 0.45s ease; 
+      opacity: 0;
+     }
+    &:-ms-placeholder {
+     transition: opacity 0.45s ease; 
+     opacity: 0;
+     }    
+   }
+ }
+.hkp{
+    font-size: 20px;
+}
+.search-icon{
+  position: relative;
+  width: 75px;
+  height: 75px;
+  top: -62px;
+  right: -45px;
+}
+.homep{
+font-size: 23px;
+}
+.text-box1 {
+    position: relative;
+    display: inline-block;
+    max-width: 550px;  
+    vertical-align: middle;
+    text-align: left;  
+    padding: 30px 25px; 
+    margin: 50px 0 50px -30px;
+  }
+  .kimg{
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    max-width: 550px;
+    max-height: 550px;
+  }
